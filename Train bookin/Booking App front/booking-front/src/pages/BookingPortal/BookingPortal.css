@@ -1,0 +1,242 @@
+label{
+    color: black;
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+
+.my-button{
+    background-color: black;
+}
+
+
+
+
+.dis-flex{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.info-text{
+    color: #464545;
+    font-size: small;
+}
+
+.tier-cards {
+    gap: 30px;
+    margin: 20px auto;
+    margin-top: 50px;
+    max-width: 1200px; 
+    border: 2px solid transparent;
+    justify-items: center;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+
+}
+
+.tier-card {
+    display: flex; 
+    flex-direction: column;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    cursor: pointer;
+    flex: 1;
+    max-width: 300px; 
+    padding: 20px;
+    box-shadow: 3px 4px 0px 1px #000;
+
+}
+  
+
+.tier-selected{
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #000;
+
+}
+.card-image{
+    height: 250px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.card-title{
+    font-size: larger;
+    padding: 10px;
+}
+
+
+.seats{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+
+}   
+
+.seats-info{
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;   
+
+}
+
+.card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    height: 100%; 
+}
+
+.seats-txt{
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.sub-but-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.sub-butn {
+    border-radius: 10px !important;
+    background-color: #6c28d9cf !important;
+    border: 2px solid transparent !important;
+    padding: 10px;
+    padding-left: 170px;
+    padding-right: 170px;
+    font-size: larger;
+}
+
+.sub-butn:hover{
+    background-color: #9259edcf !important;
+    border: 2px solid #6c28d9cf !important;
+}
+
+.main-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: 1px solid #6c28d9cf;
+    box-shadow: 5px 5px 0px 0px #000;
+}
+
+.display-ticket{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 20px;
+    padding-top: 40px;
+    position: absolute;
+    top: 91px;
+    left: 404px;
+}
+
+.from {
+    color: black;
+    position: absolute;
+    top: 171px;
+    left: 404px;
+    font-size: 20px;
+}
+
+.to {
+    color: black;
+    position: absolute;
+    top: 214px;
+    left: 404px;
+    font-size: 20px;
+}
+
+.date {
+    color: black;
+    position: absolute;
+    top: 257px;
+    left: 404px;
+    font-size: 20px;
+}
+
+.time {
+    color: black;
+    position: absolute;
+    top: 299px;
+    left: 404px;
+    font-size: 20px;
+}
+
+
+.input {
+    padding: 7px;
+    border-radius: 4px;
+    font-size: 16px;
+    display: flex;
+    position: absolute;
+    top: 133px;
+    left: 642px;
+}
+
+.class-dd {
+    position: absolute;
+    top: 187px;
+    left: 643px;
+    padding: 5px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.add-button{
+    background-color: white !important;
+    color: #000;
+    border: 3px solid black;;
+    padding: 8px;
+}
+.add-btn-wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.passenger{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.passenger-inputs{
+    border: 1px solid black;
+    padding: 10px;
+    width: 230px;
+}
+
+
+.remove-btn{
+    padding: 9px;
+    background-color: rgb(188, 89, 237) !important;
+    border: 3px solid black;
+    margin-left: 10px;
+    color: black;
+}
+
+.inp-group{
+    padding-top: 10px;
+
+}

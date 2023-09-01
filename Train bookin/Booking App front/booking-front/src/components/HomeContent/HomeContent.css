@@ -1,0 +1,13 @@
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+    color: black;
+}
+
+.home-img{
+    padding-top: 0px;
+}
+
+.home-dis{
+    position: relative;
+}
